@@ -65,11 +65,17 @@ header h2 {
   height: 120px;
   padding-right: 10px;
   text-align: center;
-  text-indent: -9999px;
 }
 #findme ul li:last-child {
   padding-right: 0;
 }
+#findme ul li a {
+  display: block;
+  width: 120px;
+  height: 120px;
+  text-indent: -9999px;
+}
+
 #findme ul li.github {
   background: url('../images/github.png') no-repeat;
   background-size: 100px;
